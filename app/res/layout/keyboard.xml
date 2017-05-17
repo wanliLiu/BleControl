@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_shape"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/keyboard_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_editview"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/keyboard_num1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num1" />
+
+            <Button
+                android:id="@+id/keyboard_num2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num2" />
+
+            <Button
+                android:id="@+id/keyboard_num3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num3" />
+            
+			<Button
+                android:id="@+id/keyboard_delete"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_delete" />            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/keyboard_num4"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num4" />
+
+            <Button
+                android:id="@+id/keyboard_num5"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num5" />
+
+            <Button
+                android:id="@+id/keyboard_num6"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num6" />
+            
+			<Button
+                android:id="@+id/keyboard_clear"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_clear" />            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/keyboard_num7"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num7" />
+
+            <Button
+                android:id="@+id/keyboard_num8"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num8" />
+
+            <Button
+                android:id="@+id/keyboard_num9"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num9" />
+
+            <Button
+                android:id="@+id/keyboard_num0"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/smart_follow_txt_num0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_input_sure"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/sSure" />
+
+            <Button
+                android:id="@+id/btn_input_cancle"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/keyboard_select"
+                android:text="@string/sCancle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

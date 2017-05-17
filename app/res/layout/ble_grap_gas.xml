@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/grap_gas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/sensor_tv_gas_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_black"
+            android:textSize="12sp" />
+
+        <ToggleButton
+            android:id="@+id/btn_gas_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/on_off"
+            android:checked="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="开始测试"
+            android:textOff="开始测试"
+            android:textOn="停止测试" />
+
+        <Button
+            android:id="@+id/btnsid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/btn_gas_start"
+            android:background="@drawable/btn_select"
+            android:text="单次采集"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

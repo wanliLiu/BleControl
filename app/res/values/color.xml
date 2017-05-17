@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <color name="system_theme_color">#efefef</color> -->
+    <color name="system_theme_color">#51B0E8</color>
+    <!-- EFEFF4 -->
+    <color name="whiteGray">#ffC9CACB</color>
+    <color name="top_buttom_bg">#F9F9F9</color>
+    <color name="color_gray_reviews">#DCDCDC</color>
+    <color name="color_gray">#717171</color>
+    <color name="color_light_black">#666666</color>
+    <color name="color_black">#000000</color>
+    <color name="color_blue">#1A85FD</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_green">#53d769</color>
+    <color name="color_yellow">#ff8000</color>
+    <color name="color_yellow_hit">#ff7000</color>
+    <color name="color_red">#fc403b</color>
+    <color name="color_line1">#A8A8A9</color>
+    <color name="color_line">#dddddd</color>
+    <color name="color_light_blue">#4B851E</color>
+    <color name="color_silde_menu">#333333</color>
+    <color name="color_silde_menu_text">#999999</color>
+    <color name="color_silde_menu_press">#484848</color>
+    <color name="color_silde_menu_chile_background">#111111</color>
+    <color name="color_silde_menu_diviver">#484848</color>
+    <color name="news_tool_bar_bg_light">#fff9f9f9</color>
+    <color name="news_tool_bar_bg_light_click">#ff5d5d5d</color>
+    <!--  -->
+    <color name="navigation_divider_light">#ffcccccc</color>
+    <color name="search_bg">#D5D5D6</color>
+    <color name="transparent_background">#96000000</color>
+    <!-- 自定义Loding_Dialog_Start -->
+    <color name="bocop_dialog_bg">#77000000</color>
+    <color name="black1">#ff333333</color>
+    <color name="black2">#ff666666</color>
+    <color name="black3">#ff999999</color>
+    <color name="black4">#ffcccccc</color>
+    <color name="color_android_bg">#ffebebeb</color>
+    <color name="color_android_bg01">#ffebebeb</color>
+    <color name="price">#ffe37b1d</color>
+    <color name="color_stroke">#ffd4d4d4</color>
+
+</resources>

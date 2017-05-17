@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blecontrol"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+    <!--
+    Declare this required feature if you want to make the app available to BLE-capable
+    devices only.  If you want to make your app available to devices that don't support BLE,
+    you should omit this in the manifest.  Instead, determine BLE capability by using
+    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE)
+
+    -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="Weclome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainActivity" >
+        </activity>
+
+        <service
+            android:name=".services.BluetoothLeService"
+            android:enabled="true" >
+        </service>
+
+        <activity android:name=".sensor.control.BLE_dianzheng" >
+        </activity>
+        <activity android:name=".sensor.control.BLE_LED" >
+        </activity>
+        <activity android:name=".sensor.grap.Ble_grap_gaojinduwenshidu"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".sensor.control.BLE_Relay"></activity>
+        <activity android:name=".sensor.control.BLE_motor"></activity>
+        <activity android:name=".sensor.control.BLE_highled"></activity>
+        <activity android:name=".sensor.ReNameDevice"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_accer"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_press"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_templight"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_shake"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_chaoshengbo"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_infared"></activity>
+        <activity android:name=".sensor.grap.Ble_grap_gas"></activity>
+    </application>
+
+</manifest>

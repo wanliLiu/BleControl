@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup_high_led"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_highled_dark"
+            style="@style/MMTabButton"
+            android:checked="true"
+            android:drawableTop="@drawable/highled_dark"
+            android:text="熄灭" />
+
+        <RadioButton
+            android:id="@+id/radio_highled_mid"
+            style="@style/MMTabButton"
+            android:drawableTop="@drawable/highled_mid"
+            android:text="中等" />
+
+        <RadioButton
+            android:id="@+id/radio_highled_bright"
+            style="@style/MMTabButton"
+            android:drawableTop="@drawable/highled_bright"
+            android:text="最亮" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup_high_led"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最暗"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:max="255"
+            android:layout_weight="1"
+            android:background="#60efefef"
+            android:progress="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最亮"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

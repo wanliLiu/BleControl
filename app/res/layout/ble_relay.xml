@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/btn_relay_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/relay_1_control"
+                android:button="@null"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/Relay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="继电器1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_black"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ToggleButton
+                android:id="@+id/btn_relay_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/relay_2_control"
+                android:button="@null"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/Relay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="继电器2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_black"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

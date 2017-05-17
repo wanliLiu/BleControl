@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/grap_templight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sensor_tv_templight_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text=" "
+            android:textColor="@color/color_black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_templight_setTem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_select"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="温度报警"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edit_templight_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_editview"
+                android:ems="10"
+                android:hint="点击输入"
+                android:inputType="text|number" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_templight_setgua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_select"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="光敏报警"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edit_templight_guan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_editview"
+                android:ems="10"
+                android:hint="点击输入"
+                android:inputType="text|number" />
+
+            <ToggleButton
+                android:id="@+id/btn_templight_speak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/speaker_select"
+                android:text=" "
+                android:textOff=" "
+                android:textOn=" " />
+
+            <Button
+                android:id="@+id/btnSignal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_select"
+                android:text="单次采集"
+                android:textSize="14sp" />
+
+            <ToggleButton
+                android:id="@+id/btn_templight_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/on_off"
+                android:checked="false"
+                android:text="开始测试"
+                android:textOff="开始测试"
+                android:textOn="停止测试" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

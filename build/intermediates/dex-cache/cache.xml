@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/soli/Documents/Project/android/BleControl/app/libs/fastjson-1.1.27-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24ee7ff19cce098b34c33c4e5806fd12d0c2bf23">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/pre-dexed/debug/fastjson-1.1.27-android_95d6d82ba23b5a0b3177516e3175e5477c282ea4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61505ea768724a768147cf993fde1b27ed1c2892">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fb4c919a5f785d09bdc88920d344dddc5a7fc761/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/soli/Documents/Project/android/BleControl/actionbarsherlock/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5e134da8df3a2ff492f69514a03e5c5f7c5fae2">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/pre-dexed/debug/classes_cdd05121c58601a54bda44640ad002584034141e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_de9b6d3d05b3da0b5ee880d68bf87c218e2b85d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soli/Documents/Project/android/BleControl/app/libs/fastjson-1.1.27-android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24ee7ff19cce098b34c33c4e5806fd12d0c2bf23">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/transforms/dex/debug/folders/1000/2/fastjson-1.1.27-android_95d6d82ba23b5a0b3177516e3175e5477c282ea4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soli/Documents/Project/android/BleControl/app/libs/achartengine-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/transforms/dex/debug/folders/1000/2/achartengine-1.0.0_81bce29786b4da5f848d8ec864cd5ff0e81ab0d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soli/Documents/Project/android/BleControl/actionbarsherlock/build/intermediates/bundles/default/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15c03170be6fbbb27ca5bae0eb284fef5755253a">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/transforms/dex/debug/folders/1000/8/android-support-v4_5fba4ba29b4942c3efa233bee0b518bf83367d43/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/soli/Documents/Project/android/BleControl/app/libs/achartengine-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/pre-dexed/debug/achartengine-1.0.0_81bce29786b4da5f848d8ec864cd5ff0e81ab0d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/soli/Documents/Project/android/BleControl/actionbarsherlock/build/intermediates/bundles/default/libs/android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15c03170be6fbbb27ca5bae0eb284fef5755253a">
+        <dex dex="/Users/soli/Documents/Project/android/BleControl/app/build/intermediates/pre-dexed/debug/android-support-v4_5fba4ba29b4942c3efa233bee0b518bf83367d43.jar" />
+    </item>
+
+</items>
